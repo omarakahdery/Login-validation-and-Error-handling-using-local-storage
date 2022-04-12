@@ -88,7 +88,7 @@ const Login = (props) => {
   return (
     <Card className={classes.login}>
       <form onSubmit={submitHandler}>
-        <h4>Not necessarily a real email</h4>
+        <h4>Enter fake mail</h4>
         <Input
           id="email"
           label="E-Mail"
